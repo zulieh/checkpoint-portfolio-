@@ -3,6 +3,7 @@
     margin: 0%;
     font-family: Arial, Helvetica, sans-serif;
 }
+/* <!--styling the hero section --> */
 .header{
     position:fixed;
     width: 100%;
@@ -16,6 +17,7 @@
     height: 100vh;
     background-color:white;
 }
+/* <!--styling the nav section --> */
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -98,6 +100,7 @@ span {
     background:rgb(138, 110, 74);
     opacity: .7;  
 }
+/* <!--styling the about section --> */
 .about {
     width:100%;
     padding: 100px 0px;
@@ -117,6 +120,11 @@ span {
     display: flex;
     align-items: center;
     justify-content:space-around;
+}
+.main video{
+    width: 450px;
+    height: 300px;
+    border-radius: 50px;
 }
 .about-text h2{
     font-weight: bold;
@@ -145,6 +153,7 @@ button {
     border-radius: 30px;
     font-weight: bold;
 }
+/* <!--styling the sills section --> */
 .work {
     padding: 100px 0px;
    margin: 45px;
@@ -160,15 +169,21 @@ table, th, td {
     border:1px solid antiquewhite;
     padding: 20px;
   }
+/* <!--styling the footer section --> */
   .footer {
     background-color: black;
     font-weight: 300;
     padding: 30px;
   }
-  .footer p{
+  .footer h4{
     display: flex;
     justify-content: center;
     color: aliceblue;
+  }
+  .footer p{
+    display: flex;
+    justify-content: center;
+    color: antiquewhite;
   }
 
 
