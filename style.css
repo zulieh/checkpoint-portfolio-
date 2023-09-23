@@ -144,8 +144,32 @@ button {
     border: 2px solid transparent;
     border-radius: 30px;
     font-weight: bold;
+}
+.work {
+    padding: 100px 0px;
+   margin: 45px;
+   
+}
+.work h3{
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 40px;
 
 }
+table, th, td {
+    border:1px solid antiquewhite;
+    padding: 20px;
+  }
+  .footer {
+    background-color: black;
+    font-weight: 300;
+    padding: 30px;
+  }
+  .footer p{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+  }
 
 
 
